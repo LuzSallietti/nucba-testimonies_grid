@@ -47,6 +47,9 @@ main {
       right: 33px;
       width: 100px;
       z-index: -1;
+      @media screen and (min-width:1440px) {
+          right: 75px;          
+      }
     }
   }
   &:nth-of-type(2) {
